@@ -2,6 +2,12 @@
 node_modules
 /dist
 
+# publicの情報にはFirebaseのユーザー情報などがあるため除外する！
+public/
+
+# main.jsの情報にはFirebaseのユーザー情報などがあるため除外する！
+main.js
+
 
 # local env files
 .env.local

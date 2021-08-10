@@ -13,5 +13,32 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <!-- firebaseを利用するためのコード -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyDpR4p1P4LOHIJg02inWRnykyfn7z21m3k",
+        authDomain: "my-rakuten-project.firebaseapp.com",
+        projectId: "my-rakuten-project",
+        storageBucket: "my-rakuten-project.appspot.com",
+        messagingSenderId: "1065195705598",
+        appId: "1:1065195705598:web:37b1804c6a78a61220c1af",
+        measurementId: "G-B0S5VLW9RF"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+
   </body>
 </html>
